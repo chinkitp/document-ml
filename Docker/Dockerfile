@@ -8,6 +8,7 @@ RUN apt-get update && \
 RUN python3 -m pip install --no-cache-dir --upgrade pip && \
     python3 -m pip install --no-cache-dir \
     torch \
+    torchvision \
     scikit-learn \
     transformers[torch] \
     pytesseract
