@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  data-science:
+    build: 
+      context: ./docker
+    image: chinkit/document-ml:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./code/:/home/jovyan/work/code/src
+      - ./data/:/home/jovyan/work/code/data/
