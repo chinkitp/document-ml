@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   data-science:
-    image: chinkit/document-ml:v1.0.5
+    image: chinkit/document-ml:v1.0.6
     ports:
       - "8888:8888"
     volumes:
